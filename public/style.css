@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: thistle;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.url {
+  margin-bottom: 1em;
+}
+
+.caption {
+  color: red;
+  font-size: 8px;
+  font-weight: 500;
+}
+
+input {
+  border: 2px solid red;
+  height: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em;
+}
+
+button {
+  padding: 12px;
+  background-color: green;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+}
+
+#create {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    width: 80%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
