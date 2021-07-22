@@ -42,63 +42,6 @@
         <div class=""></div>
       </div>
     </main>
-    <!-- <main id="app">
-      <div id="error"></div>
-      <form id="form">
-        <div class="url">
-          <label for="url" class="text">Link: </label>
-          <input type="url" name="url" id="url" />
-        </div>
-        <div class="url">
-          <label for="slug" class="text">Slug: </label>
-          <input type="text" name="slug" id="slug" />
-          <div class="caption">
-            (The other part of the shortened link. Leave blank to get an
-            auto-generated slug)
-          </div>
-        </div>
-        <button type="button" onclick="submitForm()">Create short link</button>
-        <div id="create">
-          Your short url is: <a><div id="created"></div></a>
-        </div>
-      </form>
-    </main>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
-      integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script> -->
     <script src="./app.js"></script>
-    <!-- <script>
-      let create = document.getElementById("create");
-      let created = document.getElementById("created");
-      let error = document.getElementById("error");
-      let a = document.getElementsByTagName("a");
-
-      function submitForm(form) {
-        ajax({
-          url: "/url",
-          method: "POST",
-          data: {
-            url: form.querySelector('input[name="url"]').value,
-            slug: form.querySelector('input[name="slug"]').value,
-          },
-          success: function (res) {
-            console.log(res);
-            if (res.error) {
-              error.innerHTML = `${res.error}`;
-            }
-            setTimeout(() => {
-              create.style.display = "block";
-            }, 1000);
-            created.innerHTML = `${res}`;
-          },
-          error: function (error) {
-            console.log(error);
-          },
-        });
-      }
-    </script> -->
   </body>
 </html>
