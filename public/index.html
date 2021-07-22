@@ -37,7 +37,8 @@
       </form>
       <div v-if="created">
         <p class="created">
-          Your short url is: <a :href="created">{{ created }}</a>
+          Your short url is:
+          <a :href="created" target="_blank">{{ created }}</a>
         </p>
         <div class=""></div>
       </div>
