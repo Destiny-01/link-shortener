@@ -54,6 +54,15 @@ button {
   display: none;
 }
 
+footer {
+  background-color: black;
+  padding: 12px;
+  width: 100%;
+  margin-top: 280px;
+  color: whitesmoke;
+  text-align: center;
+}
+
 @media screen and (max-width: 480px) {
   main {
     width: 80%;
